@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pp"
+            android:icon="@drawable/icon_pakaian_pria"
+            android:title="Pakaian Pria" />
+        <item
+            android:id="@+id/nav_pw"
+            android:icon="@drawable/icon_pakaian_wanita"
+            android:title="Pakaian Wanita" />
+        <item
+            android:id="@+id/nav_by"
+            android:icon="@drawable/icon_pakaian_bayi"
+            android:title="Pakaian Bayi" />
+        <item
+            android:id="@+id/nav_per6"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="Alarm Manager" />
+        <item
+            android:id="@+id/nav_per8"
+            android:icon="@drawable/ic_baseline_data_usage_24"
+            android:title="SQLite Database" />
+        <item
+            android:id="@+id/nav_per9"
+            android:icon="@drawable/ic_baseline_api_24"
+            android:title="Rest API" />
+        <item
+            android:id="@+id/nav_per10"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="logout" />
+    </group>
+</menu>
